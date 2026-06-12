@@ -11,8 +11,23 @@
 AI models are exceptionally well-trained in Django because it is an established, opinionated framework. Swapping MySQL for PostgreSQL is a critical upgrade for a bartering marketplace. PostgreSQL offers native ACID-compliant transactions and row-level locking. This prevents "race conditions"—such as a user accidentally double-spending their internal ledger token if they click a "buy" button twice simultaneously.
 ### Some questions arised: 
 1. How complex is my frontend design (e.g., do I want a simple web layout or a flashy mobile-first app)?
-   I am after the most simple, user friendly interface. Not to impress, but let the user understand the functionality straight away. Simple, informative, intuitive.  
+   
+         I am after the most simple, user friendly interface. Not to impress, but let the user understand the functionality straight away. Simple, informative, intuitive.
+   
 2. What is my comfort level with running terminal commands locally?
-   I am a confident user of VScode and terminal. Not a complete beginner, but not an engineer.
-3. What do I need to understand next?
-   I would like to understand what tools to use and how to do an initial setup. I like VScode. I have a hosting with cPanel where Django is already setup and running the old code (legacy Django + mySql). I see a facility on my cPanel to create postgreSQL. I will do that. I also would like to use a git for backing up the project. If it is possible to make my Github account work synchronously with my cPanel hosting. It would be great to come up with a stack of tools that let me code locally on my machine and run preview locally before I push to github and hosting.
+   
+         I am a confident user of VScode and terminal. Not a complete beginner, but not an engineer.
+   
+4. What do I need to understand next?
+   
+         I would like to understand what tools to use and how to do an initial setup. I like VScode. I have a hosting with cPanel where Django is already setup and running the old code (legacy Django + mySql). I see a facility on my cPanel to create postgreSQL. I will do that. I also would like to use a git for backing up the project. If it is possible to make my Github account work synchronously with my cPanel hosting. It would be great to come up with a stack of tools that let me code locally on my machine and run preview locally before I push to github and hosting.
+
+### Concidered Tool Stack
+- AI Assistant: VSCode + Roo Code extension (using Claude 3.7 Sonnet / 3.5 Sonnet)  
+   Why: Since you already use VSCode, do not switch to a whole new editor. Install the free Roo Code (formerly Roo Cline) or Continue extension inside VSCode, and connect it to Anthropic's Claude. It allows the AI to read your files, run terminal commands, and write code directly in your local project workspace with your permission.
+- Frontend Design: Tailwind CSS via CDN
+  Why: To keep the UI simple, intuitive, and informative, use Tailwind CSS. It allows the AI to style elements inline using utility classes (e.g., <div class="bg-white p-6 rounded-lg shadow-md">). It requires zero complex build tools; you just drop a single script link into your Django HTML base template.
+- Local Database: Docker Desktop (Running PostgreSQL)
+  Why: Since cPanel uses Linux-based PostgreSQL, installing PostgreSQL directly on a Windows/Mac machine can lead to version mismatches. Installing Docker Desktop allows you to spin up an identical local PostgreSQL database with a single terminal command.
+- Deployment Sync: GitHub Actions
+  Why: Do not upload files manually via cPanel file manager. You will set up a automated pipeline: when you push code to GitHub, GitHub will automatically securely deploy the updates to your cPanel hosting.
