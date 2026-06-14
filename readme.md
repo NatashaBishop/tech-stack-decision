@@ -35,4 +35,5 @@ AI models are exceptionally well-trained in Django because it is an established,
 Because I do not have a CTO, I need an autonomous AI agent that can look at the entire project directory, create database migrations and run tests (not just a basic chat window)  
 
 1. Claude Code / Cursor (Powered by Claude 4.7 Sonnet) — The Best Choice is Claude Code at the moment (or the Cursor IDE editor running Claude) is the absolute industry gold standard for backend heavy frameworks like Django.  
-2. Why it fits: It has a massive 1-million-token context window. This means it can read the entire Django repository (all models, views, and configurations) at the same time.  
+2. Why Claude Code fits: It has a massive 1-million-token context window. This means it can read the entire Django repository (all models, views, and configurations) at the same time.
+3. How it handles the token: Claude excels at deep, linear architectural reasoning. It is less likely to introduce bugs into the internal token ledger mechanics.
