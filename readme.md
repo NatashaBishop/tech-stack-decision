@@ -1,4 +1,4 @@
-Making a decision on tech stack and tools for marketplace
+I am making a decision on tech stack and tools for my marketplace: 
 
             I am looking for an AI model to code my cashless bartering marketplace.  
             Some features are already done by ex-CTO (with no AI help) in Django with MySQL as a database.  
