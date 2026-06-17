@@ -40,17 +40,17 @@ Because I do not have a CTO, I need an autonomous AI agent that can look at the 
 2. Why Claude Code fits: It has a massive 1-million-token context window. This means it can read the entire Django repository (all models, views, and configurations) at the same time.
 3. How it handles the token: Claude excels at deep, linear architectural reasoning. It is less likely to introduce bugs into the internal token ledger mechanics.  
 
-┌────────────────────────────────────────────────────────┐  
-│                      THE FINAL STACK                   │  
-├─────────────┬──────────────────────────────────────────┤  
-│ Backend     │ Django (Python)                          │  
-├─────────────┼──────────────────────────────────────────┤  
-│ Database    │ PostgreSQL (Managed via cPanel)          │  
-├─────────────┼──────────────────────────────────────────┤  
-│Interactivity│ HTMX (Zero-build JS via CDN)             │  
-├─────────────┼──────────────────────────────────────────┤  
-│ Styling     │ Tailwind CSS (Compiled Locally via CLI)  │  
-└─────────────┴──────────────────────────────────────────┘  
+            ┌────────────────────────────────────────────────────────┐  
+            │                      THE FINAL STACK                   │  
+            ├─────────────┬──────────────────────────────────────────┤  
+            │ Backend     │ Django (Python)                          │  
+            ├─────────────┼──────────────────────────────────────────┤  
+            │ Database    │ PostgreSQL (Managed via cPanel)          │  
+            ├─────────────┼──────────────────────────────────────────┤  
+            │Interactivity│ HTMX (Zero-build JS via CDN)             │  
+            ├─────────────┼──────────────────────────────────────────┤  
+            │ Styling     │ Tailwind CSS (Compiled Locally via CLI)  │  
+            └─────────────┴──────────────────────────────────────────┘  
 
 ### I need 2 learn: 
 - Use a Git repository (GitHub) to deploy to cPanel
