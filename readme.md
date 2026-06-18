@@ -52,6 +52,11 @@ Because I do not have a CTO, I need an autonomous AI agent that can look at the 
             │ Styling     │ Tailwind CSS (Compiled Locally via CLI)  │  
             └─────────────┴──────────────────────────────────────────┘  
 
+### Why this stack sutable 4 cPanel:  
+- No Node.js on the Server: cPanel handles Python (via WSGI) and PostgreSQL brilliantly. It struggles heavily with Node.js processes (like running a React server or an active Tailwind compiler). This stack keeps Node.js 100% on your local computer.
+- No API Overhead: You do not need to build, secure, or maintain a Django REST Framework API because HTMX talks directly to standard Django views.
+- Native Security: Django’s built-in CSRF tokens and user session cookies protect your digital wallet ledger out of the box.
+
 ### I need 2 learn: 
 - Use a Git repository (GitHub) to deploy to cPanel
 - Django Templates + HTMX (React / Vue SPA is less sutable for Django on cPanel) 
