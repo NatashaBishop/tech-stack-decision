@@ -1,6 +1,9 @@
-### Notes on implementing
+### Notes on implementing token transfer  
+
+For AI model: 
+- To control expenses, implement prompt caching (available on Claude models) to lower input costs by up to \(90\%\) for repetitive tasks
 For Django:
-- 
+- a Django middleware snippet that hooks directly into the views to log actual token usage metrics straight to a PostgreSQL database table (AI tokens used by user)
  
 For User:
 - Write robust validation checks, ensuring user balances can never drop below zero during a barter trade
@@ -11,6 +14,7 @@ For User:
 
 For databse:  
 - Database Transaction Safety: correctly  implement Django select_for_update() to lock rows during token transfers, ensuring two concurrent trades do not double-spend the same tokens.
+- Database Constraints: Core validation (e.g., preventing negative ledger balances) is enforced at the PostgreSQL layer using CheckConstraint.
 - Implement Django select_for_update() to lock rows during token transfers, ensuring two concurrent trades do not double-spend the same tokens
 - Implement The Double-Entry Ledger Mode: lInstead of simply adding or subtracting a number from a Profile model, implement a double-entry ledger database schema. This creates an unchangeable audit trail of every token that moves.
 
