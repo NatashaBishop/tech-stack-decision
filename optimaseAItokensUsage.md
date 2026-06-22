@@ -1,5 +1,7 @@
 ### Notes on optimasing AI token usage  
 
+Run Claude Code for Free: https://charliehills.substack.com/p/how-to-run-claude-code-for-free
+
 For AI model: 
 - To control expenses, implement prompt caching (available on Claude models) to lower input costs by up to \(90\%\) for repetitive tasks
 For Django:
