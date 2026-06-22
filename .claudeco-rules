@@ -1,8 +1,9 @@
-# Claude, based on our rules file, can you scaffold a new Django app named marketplace with a Transaction model that securely handles peer-to-peer balance transfers?
+# V1 Functional MVP Rules (Django + PostgreSQL)
+- Build a fully functional General Barter Marketplace MVP using four core apps: accounts, inventory, core_ledger, and trades.
+- Implement an automatic 'Sign-up Bonus' token allocation inside the core_ledger application logic.
+- Use an explicit Escrow state machine in the trades app to temporarily lock tokens during an active negotiation or delivery window.
+- Ensure all location queries use standard latitude and longitude calculations to sort the main inventory feed by geographical proximity.
+- Utilize a flexible Asset model with a PostgreSQL JSONB 'metadata' field to support varied item details while keeping the core schema generic.
 
-# Django + PostgreSQL Architecture Rules for Cashless Marketplace
-- Always adhere strictly to Django's "Fat Models, Skinny Views" design pattern.
-- Keep all core business logic (e.g., transaction validation, balance updates, ledger math) inside your Django Models (`models.py`) or dedicated service files (`services.py`).
-- NEVER place complex business or marketplace calculations inside Django Views (`views.py`) or HTML Templates. Views should only handle request processing, permissions, and routing.
-- Use PostgreSQL atomic transactions (`transaction.atomic()`) for all marketplace transfers to prevent race conditions and ensure database integrity.
-- Write strict unit tests (`tests.py`) for all balance deductions, ledger entries, and transaction state changes.
+
+"Claude, let's build the complete functional MVP for our multi-niche cashless marketplace using Django and PostgreSQL. This V1 will launch as a general barter network. Please scaffold the project into four clean, isolated apps: accounts, inventory, core_ledger, and trades. Implement user signup with a 100-token welcome credit, a location-aware asset feed using coordinates, and a trade negotiation workflow with an integrated escrow system to lock tokens. Ensure the inventory app uses a generic Asset model with a PostgreSQL JSONB field so the database remains fully future-proofed for our upcoming niches."
