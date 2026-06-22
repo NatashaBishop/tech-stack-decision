@@ -1,4 +1,4 @@
-
+# Claude, based on our rules file, can you scaffold a new Django app named marketplace with a Transaction model that securely handles peer-to-peer balance transfers?
 
 # Django + PostgreSQL Architecture Rules for Cashless Marketplace
 - Always adhere strictly to Django's "Fat Models, Skinny Views" design pattern.
