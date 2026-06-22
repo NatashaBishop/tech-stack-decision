@@ -1,0 +1,8 @@
+
+
+# Django + PostgreSQL Architecture Rules for Cashless Marketplace
+- Always adhere strictly to Django's "Fat Models, Skinny Views" design pattern.
+- Keep all core business logic (e.g., transaction validation, balance updates, ledger math) inside your Django Models (`models.py`) or dedicated service files (`services.py`).
+- NEVER place complex business or marketplace calculations inside Django Views (`views.py`) or HTML Templates. Views should only handle request processing, permissions, and routing.
+- Use PostgreSQL atomic transactions (`transaction.atomic()`) for all marketplace transfers to prevent race conditions and ensure database integrity.
+- Write strict unit tests (`tests.py`) for all balance deductions, ledger entries, and transaction state changes.
