@@ -25,8 +25,7 @@ AI models are exceptionally well-trained in Django because it is an established,
          I would like to understand what tools to use and how to do an initial setup. I like VScode. I have a hosting with cPanel where Django is already setup and running the old code (legacy Django + mySql). I see a facility on my cPanel to create postgreSQL. I will do that. I also would like to use a git for backing up the project. If it is possible to make my Github account work synchronously with my cPanel hosting. It would be great to come up with a stack of tools that let me code locally on my machine and run preview locally before I push to github and hosting.
 
 ### Concidered Tool Stack
-- AI Assistant: VSCode + Roo Code extension (using Claude 3.7 Sonnet / 3.5 Sonnet)  
-   Why: Since I already use VSCode, do not switch to a whole new editor. Install the free Roo Code (formerly Roo Cline) or Continue extension inside VSCode, and connect it to Anthropic's Claude. It allows the AI to read project files, run terminal commands, and write code directly in my local project workspace with my permission.
+- AI Assistant: VSCode + Install the Continue extension inside VSCode, and connect it to Anthropic's Claude. It allows the AI to read my files, run terminal commands and write code directly in my local project workspace with your permission.
 - Frontend Design: Tailwind CSS via CDN  
   Why: To keep the UI simple, intuitive, and informative, use Tailwind CSS. It allows the AI to style elements inline using utility classes (e.g., <div class="bg-white p-6 rounded-lg shadow-md">). It requires zero complex build tools; I will just drop a single script link into my Django HTML base template.
 - Local Database: Docker Desktop (Running PostgreSQL)  
