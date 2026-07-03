@@ -46,11 +46,11 @@ Because I do not have a CTO, I need an autonomous AI agent that can look at the 
             ├─────────────┼──────────────────────────────────────────┤  
             │ Database    │ PostgreSQL (Managed via cPanel)          │  
             ├─────────────┼──────────────────────────────────────────┤  
-            │Interactivity│ HTMX (Zero-build JS via CDN)             │  
+            │Interactivity│ HTMX (Zero-build JS via CDN)*             │  
             ├─────────────┼──────────────────────────────────────────┤  
             │ Styling     │ Tailwind CSS (Compiled Locally via CLI)  │  
             └─────────────┴──────────────────────────────────────────┘  
-
+            * see HTMX.md file
 ### Why this stack sutable 4 cPanel:  
 - No Node.js on the Server: cPanel handles Python (via WSGI) and PostgreSQL brilliantly. It struggles heavily with Node.js processes (like running a React server or an active Tailwind compiler). This stack keeps Node.js 100% on your local computer.
 - No API Overhead: You do not need to build, secure, or maintain a Django REST Framework API because HTMX talks directly to standard Django views.
