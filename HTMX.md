@@ -8,3 +8,4 @@ Developers must install a local package manager (like npm), configure code bundl
 
     html
     <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.10/dist/htmx.min.js"></script>
+By self-hosting the file this way, the browser still downloads it automatically, but the file comes directly from your own server. No third-party network is ever involved.
