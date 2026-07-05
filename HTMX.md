@@ -9,3 +9,11 @@ Developers must install a local package manager (like npm), configure code bundl
     html
     <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.10/dist/htmx.min.js"></script>
 By self-hosting the file this way, the browser still downloads it automatically, but the file comes directly from your own server. No third-party network is ever involved.
+### HTML vs HTMX:  
+Standard HTML restricts you in two major ways:
+
+    Only <a> and <form> tags can make network requests.
+
+    Only click and submit events can trigger them.
+
+HTMX removes these shackles. It allows any HTML element to make an AJAX request from any event, and swap the response directly into any part of the page.  
