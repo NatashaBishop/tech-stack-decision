@@ -57,5 +57,5 @@ Because I do not have a CTO, I need an autonomous AI agent that can look at the 
 - Native Security: Django’s built-in CSRF tokens and user session cookies protect your digital wallet ledger out of the box.
 
 ### I need 2 learn: 
-- Use a Git repository (GitHub) to deploy to cPanel
+- Use a Git repository (GitHub) to deploy to cPanel. Does stablepoint hosting allow push from github? Github actions. Try automated push on small test. https://share.google/aimode/qJKgVElH6nKMQiW2N
 - Django Templates + HTMX (React / Vue SPA is less sutable for Django on cPanel) 
