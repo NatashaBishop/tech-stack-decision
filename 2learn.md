@@ -6,3 +6,4 @@
 - Run Claude Code from VScode
 - Find out if Claude can push to git
 - Claude skills
+- Claude loops
