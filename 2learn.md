@@ -7,3 +7,4 @@
 - Find out if Claude can push to git
 - Claude skills
 - Claude loops
+- How django URLs are working for SEO
