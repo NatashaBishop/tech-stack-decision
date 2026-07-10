@@ -10,3 +10,4 @@
 - Claude automation
 - How django URLs are working for SEO
 - What Django version my host uses. Latest @ the moment Long-Term Support version: Django 5.2 LTS
+- How to implemented caching
