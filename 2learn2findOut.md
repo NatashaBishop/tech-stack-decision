@@ -11,3 +11,4 @@
 - How django URLs are working for SEO
 - What Django version my host uses. Latest @ the moment Long-Term Support version: Django 5.2 LTS
 - How to implemented caching
+- Working with SSH Servers, Clients, and Keys - for my cPanel hosting. Host activated SSH access on 10/07/26 via ticket
