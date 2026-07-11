@@ -26,8 +26,9 @@ AI models are exceptionally well-trained in Django because it is an established,
 
 ### Concidered Tool Stack
 - AI Assistant: VSCode + Install the Continue extension inside VSCode (see file continue-extension-in-VSCode.md), and connect it to Anthropic's Claude. It allows the AI to read my files, run terminal commands and write code directly in my local project workspace with your permission.
-- Frontend Design: Tailwind CSS via CDN  
-  Why: To keep the UI simple, intuitive, and informative, use Tailwind CSS. It allows the AI to style elements inline using utility classes (e.g., <div class="bg-white p-6 rounded-lg shadow-md">). It requires zero complex build tools; I will just drop a single script link into my Django HTML base template.
+- Frontend Design: Tailwind CSS compiled directly into a static, minified file, paired with HTMX for dynamic interactivity.  
+  Why: The most efficient, high-performance architecture for a high-load Django + Postgres project hosted on cPanel.  
+  If project efficiency and performance under high load are top priorities, we must absolutely avoid using browser-based CDNs (like the tailwindcss/browser script  
 - Local Database: Docker Desktop (Running PostgreSQL)  
   Why: Since cPanel uses Linux-based PostgreSQL, installing PostgreSQL directly on a Windows/Mac machine can lead to version mismatches. Installing Docker Desktop allows me to spin up an identical local PostgreSQL database with a single terminal command.
 - Deployment Sync: GitHub Actions  
