@@ -65,4 +65,5 @@ Because I do not have a CTO, I need an autonomous AI agent that can look at the 
 - No Node.js on the Server: cPanel handles Python (via WSGI) and PostgreSQL brilliantly. It struggles heavily with Node.js processes (like running a React server or an active Tailwind compiler). This stack keeps Node.js 100% on your local computer.
 - No API Overhead: You do not need to build, secure, or maintain a Django REST Framework API because HTMX talks directly to standard Django views.
 - Native Security: Django’s built-in CSRF tokens and user session cookies protect your digital wallet ledger out of the box.
+- A PostgreSQL database handles the initial phase of tokenization. It uses strict ACID transactions to guarantee that token balances are never duplicated, mixed up, or lost during trades. 
 
