@@ -14,9 +14,9 @@ AI models are exceptionally well-trained in Django because it is an established,
 ### Some questions arised: 
 1. How complex is my frontend design (e.g., do I want a simple web layout or a flashy mobile-first app)?
    
-            I am after the most simple, user friendly interface.
-            Not to impress, but let the user understand the functionality straight away.
-            Simple, informative, intuitive.
+            I am after the most simple, user friendly interface.  
+            Not to impress, but let the user understand the functionality straight away.  
+            Simple, informative, intuitive.  
    
 3. What is my comfort level with running terminal commands locally?
    
@@ -24,13 +24,13 @@ AI models are exceptionally well-trained in Django because it is an established,
    
 4. What do I need to understand next?
    
-            I would like to understand what tools to use and how to do an initial setup. I like VScode.
-            I have a hosting with cPanel where Django is already setup and running the old code (legacy Django + mySql). 
-            I see a facility on my cPanel to create postgreSQL. I will do that. 
-            I also would like to use a git for backing up the project. 
-            If it is possible to make my Github account work synchronously with my cPanel hosting. 
-            It would be great to come up with a stack of tools that let me code locally on my machine 
-            and run preview locally before I push to github and hosting.
+            I would like to understand what tools to use and how to do an initial setup. I like VScode.  
+            I have a hosting with cPanel where Django is already setup and running the old code (legacy Django + mySql).   
+            I see a facility on my cPanel to create postgreSQL. I will do that.  
+            I also would like to use a git for backing up the project.   
+            If it is possible to make my Github account work synchronously with my cPanel hosting.   
+            It would be great to come up with a stack of tools that let me code locally on my machine   
+            and run preview locally before I push to github and hosting.  
 
 ### Concidered Tool Stack
 - AI Assistant: https://blitzy.com/#pricing Reverse Engineer existing code base
