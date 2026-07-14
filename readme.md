@@ -33,8 +33,9 @@ AI models are exceptionally well-trained in Django because it is an established,
             and run preview locally before I push to github and hosting.  
 
 ### Concidered Tool Stack
-- AI Assistant: https://blitzy.com/#pricing Reverse Engineer existing code base
+- AI Assistant: https://blitzy.com/#pricing Reverse Engineer existing code base and do tech specification on existing code.
 - AI Assistants: VSCode + Install the Continue extension inside VSCode (see file continue-extension-in-VSCode.md), and connect it to Anthropic's Claude. It allows the AI to read my files, run terminal commands and write code directly in my local project workspace with your permission.
+- or use Continue with vs code (Guide to Configure Continue in VS Code)
 - Frontend Design: Tailwind CSS compiled directly into a static, minified file, paired with HTMX for dynamic interactivity.  
   Why: The most efficient, high-performance architecture for a high-load Django + Postgres project hosted on cPanel.  
   If project efficiency and performance under high load are top priorities, we must absolutely avoid using browser-based CDNs (like the tailwindcss/browser script  
