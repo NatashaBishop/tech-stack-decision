@@ -4,9 +4,10 @@ I am building a cashless marketplace with internal token (not a crypto, SQL base
 My stack:  
 
     Back end: Django  
-    DB: PostgreSQL  
     Front end: Tailwind CSS compiled directly into a static, minified file, paired with HTMX for dynamic interactivity.  
-    Hosting: cPanel (my host has the stack I need) + GitHub for updates and backups.  
+    DB: PostgreSQL  
+    Local development, running with Docker.
+    Hosting: initialy on cPanel (my host has the stack I need) + GitHub for updates and backups.  
     AI tools: I will use Anthropic models in VS code.  
 ### Stage 1 - Houskeeping. 
 The goal: To understand/analyse my existing codebase - what is working, what is done.
