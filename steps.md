@@ -21,6 +21,6 @@ The goal: To learn and set up modern technology environment like Agentic OS with
 My tasks are as follows:    
 
     Stage 2.1: Setup my local environment on my computer for my project that can go live on cPanel (compatible) to cPanel environment.  
-    Stage 3.2: Do a test project with my stack just to see if the setup is working (just a 3 pages project that writes, reads and deletes to PostgreSQL  
-    Stage 4.3: Setup all the necessary environment on my cPanel hosting that can accept my project from my local machine.  
-    Stage 5.4: Push test project to cPanel, with GitHub, - just to learn how to go live.  
+    Stage 2.2: Do a test project with my stack just to see if the setup is working (just a 3 pages project that writes, reads and deletes to PostgreSQL  
+    Stage 2.3: Setup all the necessary environment on my cPanel hosting that can accept my project from my local machine.  
+    Stage 2.4: Push test project to cPanel, with GitHub, - just to learn how to go live.  
