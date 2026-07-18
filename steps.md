@@ -6,7 +6,7 @@ My stack:
     Back end: Django  
     Front end: Tailwind CSS compiled directly into a static, minified file, paired with HTMX for dynamic interactivity.  
     DB: PostgreSQL  
-    Local development, running with Docker.
+    Local development, running with Docker. Since cPanel uses Linux-based PostgreSQL, installing PostgreSQL directly on a Windows/Mac machine can lead to version mismatches. Installing Docker Desktop allows me to spin up an identical local PostgreSQL database with a single terminal command.
     Hosting: initialy on cPanel (my host has the stack I need) + GitHub for updates and backups.  
     AI tools: I will use Anthropic models in VS code.  
 ### Stage 1 - Houskeeping. 
