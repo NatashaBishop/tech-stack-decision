@@ -10,7 +10,7 @@ My stack:
     Since cPanel uses Linux-based PostgreSQL, installing PostgreSQL directly on a Windows/Mac machine 
     can lead to version mismatches. Installing Docker Desktop allows me to spin up 
     an identical local PostgreSQL database with a single terminal command.
-    - Cloudflare R2 is used for products' images storage
+    - Cloudflare R2 is used initially for products' images storage, After 10GB free tier limit switching to Cloudflare Images with resizing facility
     - Hosting: initialy on cPanel (my host has the stack I need) + GitHub for updates and backups.  
     - AI tools: I will use Anthropic models in VS code.  
 ### Stage 1 - Houskeeping. 
