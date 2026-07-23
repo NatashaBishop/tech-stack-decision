@@ -1,3 +1,7 @@
+To make sure I do not have to redevelop my backend logic,  
+my Django database model will store only a clean, unique file name (like product_92834.jpg)  
+in a standard text field (CharField).
+
 ## My Step-by-Step Scaling images storing Blueprint
 ### Step 1: The Zero-Cost Launch (Cloudflare R2 Free Tier)
 The Setup: I will configure my Django frontend to send user-uploaded photos  
