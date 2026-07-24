@@ -7,13 +7,12 @@ in a standard text field (CharField).
 
 ## My Step-by-Step Scaling images storing Blueprint
 ### Step 1: The Zero-Cost Launch (Cloudflare R2 Free Tier)
-The Setup: I will configure my Django frontend to send user-uploaded photos  
+- **The Setup**: I will configure my Django frontend to send user-uploaded photos  
 directly from the web browser to my Cloudflare R2 bucket using an S3-compatible script.
-The Storage: The raw, uncompressed images sit inside my R2 bucket.
-The Code: Django saves a unique string like item_99.jpg into my PostgreSQL database.
-The Delivery: My frontend HTML templates load images directly from my R2 public bucket URL:
-https://r2.dev
-My Cost: £0. I get 10GB of storage entirely free, and zero download bandwidth fees.
+- **The Storage**: The raw, uncompressed images sit inside my R2 bucket.
+- **The Code**: Django saves a unique string like item_99.jpg into my PostgreSQL database.
+- **The Delivery**: My frontend HTML templates load images directly from my R2 public bucket URL: https://r2.dev
+- **My Cost**: £0. I get 10GB of storage entirely free, and zero download bandwidth fees.
 ### Step 2: The Transition Trigger (Passing 10GB of Files)
 When I will do this: When my marketplace hits thousands of listings and I finally exceed my 10GB free R2 allocation.
 My Reality: I will not panic or switch to Cloudflare Images yet. Cloudflare R2 overage is incredibly cheap. If I cross the limit and store 15GB of images, Cloudflare will only bill me for the extra 5GB, which equates to roughly 7 pence per month.
