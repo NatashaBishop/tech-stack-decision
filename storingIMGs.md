@@ -1,3 +1,6 @@
+Both Cloudflare R2 and Cloudflare Images can serve files using that exact same unique text identifier,  
+switching tiers later means I only have to change the web address prefix (the URL string) in my frontend HTML templates.
+
 To make sure I do not have to redevelop my backend logic,  
 my Django database model will store only a clean, unique file name (like product_92834.jpg)  
 in a standard text field (CharField).
