@@ -1,7 +1,8 @@
 
 
 I am building a cashless marketplace with internal token (not a crypto, SQL based).  
-My stack:  >
+My stack:  
+
     - Back end: Django  
     - Front end: Tailwind CSS compiled directly into a static, minified file, paired with HTMX for dynamic interactivity.  
     - DB: PostgreSQL  
