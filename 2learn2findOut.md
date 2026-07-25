@@ -5,6 +5,7 @@
 - Django Templates + HTMX (React / Vue SPA is less sutable for Django on cPanel)
 - Run Claude Code from VScode
 - Find out if Claude can push to git
+- Writing tests: what and how it is tested
 - Claude skills
 - Claude loops
 - Claude automation
