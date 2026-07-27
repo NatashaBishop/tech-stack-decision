@@ -12,11 +12,12 @@ My stack:
     an identical local PostgreSQL database with a single terminal command.
     - Cloudflare R2 is used initially for products' images storage. 
     After 10GB free tier limit switching to Cloudflare Images with resizing facility. 
-    C storingIMGs.md >
-    - Hosting: initialy on cPanel (my host has the stack I need) + 
+    C storingIMGs.md
+    - Hosting: initially on cPanel (my host has the stack I need) + 
     = GitHub for updates and backups.  
     - AI tools: I will use Anthropic models in VS code.  
-### Stage 1 - Houskeeping. 
+    - Logos Blockchain for issuing the wallet and minting
+### Stage 1 - Housekeeping. 
 The goal: To understand/analyse my existing codebase - what is working, what is done.
 
     1.1. Download code base from server on local machine.
