@@ -1,8 +1,8 @@
 ### I need 2 learn: 
 - Use a Git repository (GitHub) to deploy to cPanel.
-- Does stablepoint hosting allow push from github? Y
-- Github actions. Try automated push on small test. https://share.google/aimode/qJKgVElH6nKMQiW2N
-- Django Templates + HTMX (React / Vue SPA is less sutable for Django on cPanel)
+- Does stablepoint hosting allow push from GitHub? Y
+- GitHub actions. Try automated push on small test. https://share.google/aimode/qJKgVElH6nKMQiW2N
+- Django Templates + HTMX (React / Vue SPA is less suitable for Django on cPanel)
 - Run Claude Code from VScode
 - Find out if Claude can push to git
 - Writing tests: what and how it is tested
@@ -10,8 +10,9 @@
 - Claude loops
 - Claude automation
 - Hosting images on Cloudflare
-- How django URLs are working for SEO
+- How Django URLs are working for SEO
 - What Django version my host uses. Latest @ the moment Long-Term Support version: Django 5.2 LTS
 - How to implemented caching
 - Working with SSH Servers, Clients, and Keys - for my cPanel hosting. Host activated SSH access on 10/07/26 via ticket
 - Agentic OS
+- Logos Blockchain
