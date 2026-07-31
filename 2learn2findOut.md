@@ -15,5 +15,6 @@
 - How to implemented caching
 - Working with SSH Servers, Clients, and Keys - for my cPanel hosting. Host activated SSH access on 10/07/26 via ticket
 - Agentic OS
-- Logos Blockchain
+- Logos Blockchain for crypto
+- 
 - Create AI Code Review Agent https://learn.deeplearning.ai/courses/ai-code-review
