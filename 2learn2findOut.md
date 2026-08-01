@@ -16,5 +16,5 @@
 - Working with SSH Servers, Clients, and Keys - for my cPanel hosting. Host activated SSH access on 10/07/26 via ticket
 - Agentic OS
 - Logos Blockchain for crypto
-- 
+- Asynchronous messaging system paired with HTMX polling (C chat.md)
 - Create AI Code Review Agent https://learn.deeplearning.ai/courses/ai-code-review
