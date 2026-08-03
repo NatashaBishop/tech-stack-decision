@@ -18,3 +18,4 @@
 - Logos Blockchain for crypto
 - Asynchronous messaging system paired with HTMX polling (C chat.md). Avoid Websockets, lagging on cPanel
 - Create AI Code Review Agent https://learn.deeplearning.ai/courses/ai-code-review
+- Implement escrow logic for the PostgreSQL ledger with no double spending
