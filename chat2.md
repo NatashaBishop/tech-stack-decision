@@ -5,17 +5,17 @@ Database Engine: PostgreSQL (Indexed)
 Concurrency Target: 2,000 Active Users  
 Core Architecture Principle: Passive, On-Demand Execution (Zero Persistent Connections)  
 1. System Topology & Logic  
-
+```
    [System/App Events] ───► (Auto-Generate DB Rows) ───┐
                                                        ▼
    [User Web Actions] ────► (Manual HTMX Request) ───► [ Django WSGI Server ] ──► [ PostgreSQL ]
                                                        │
                                                        └──► (SMTP Relay) ───────► [ User Email ]
-
-To safely host 2,000 active users on cPanel, this architecture completely eliminates persistent server connections. Real-time streaming layers (WebSockets, ASGI, Server-Sent Events) and automated JavaScript background loops (setInterval) are forbidden.
-The server operates on a strict request-and-release model. Connections open, execute database operations in milliseconds, and instantly terminate. When users are idle, server load drops to exactly 0%.
-2. Technical Stack Boundaries
-Approved Technologies
+```
+To safely host 2,000 active users on cPanel, this architecture completely eliminates persistent server connections. Real-time streaming layers (WebSockets, ASGI, Server-Sent Events) and automated JavaScript background loops (setInterval) are forbidden.  
+The server operates on a strict request-and-release model. Connections open, execute database operations in milliseconds, and instantly terminate. When users are idle, server load drops to exactly 0%.  
+2. Technical Stack Boundaries  
+Approved Technologies:  
 
     Application Server: Django configured strictly in WSGI mode via Phusion Passenger (cPanel’s native "Setup Python App" tool).
     Database: PostgreSQL. All queries must hit indexed columns to maintain sub-5ms lookup speeds under load.
@@ -30,7 +30,7 @@ Prohibited Technologies
 
 3. Database Schema Blueprint
 The PostgreSQL schema relies on indexed foreign keys and an explicitly typed message category system to separate human conversations from platform notices.
-
+```
    ┌──────────────────┐          ┌──────────────────┐
    │   Conversation   │          │     Message      │
    ├──────────────────┤          ├──────────────────┤
@@ -41,7 +41,7 @@ The PostgreSQL schema relies on indexed foreign keys and an explicitly typed mes
    └──────────────────┘          │ is_read          │
                                  │ created_at       │
                                  └──────────────────┘
-
+```
 Entities & Relationships
 
     Conversation Table
