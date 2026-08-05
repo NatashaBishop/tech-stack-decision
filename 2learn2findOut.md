@@ -6,6 +6,7 @@
 - Run Claude Code from VScode
 - Find out if Claude can push to git
 - Writing tests: what and how it is tested
+- Claude agents within VScode
 - Claude skills
 - Claude loops
 - Claude automation
