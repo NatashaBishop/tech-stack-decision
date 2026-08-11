@@ -24,4 +24,4 @@
   
       Letta (formerly MemGPT) treats large language models like an operating system.
       It handles context efficiently by giving agents virtual memory.
-= Python-PostgreSQL Database Adapter (Google doc)
+- Python-PostgreSQL Database Adapter (Google doc)
