@@ -20,5 +20,8 @@
 - Asynchronous messaging system paired with HTMX polling (C chat.md & chat2.md). Avoid Websockets (lagging on cPanel)
 - Create AI Code Review Agent https://learn.deeplearning.ai/courses/ai-code-review
 - Implement escrow logic for the PostgreSQL ledger with no double spending
-- Letta.com: An Open-Source Framework for Building Stateful LLM Applications. Letta (formerly MemGPT) treats large language models like an operating system.
-  It handles context efficiently by giving agents virtual memory.
+- Letta.com: An Open-Source Framework for Building Stateful LLM Applications.
+  
+      Letta (formerly MemGPT) treats large language models like an operating system.
+      It handles context efficiently by giving agents virtual memory.
+= Python-PostgreSQL Database Adapter (Google doc)
