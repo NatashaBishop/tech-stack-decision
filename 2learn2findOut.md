@@ -10,17 +10,18 @@
 - Claude skills
 - Claude loops
 - Claude automation
-- Hosting images on Cloudflare
+- Hosting images on Cloudflare. See storingIMGs.md
 - How Django URLs are working for SEO
 - What Django version my host uses. Latest @ the moment Long-Term Support version: Django 5.2 LTS
 - How to implemented caching
 - Working with SSH Servers, Clients, and Keys - for my cPanel hosting. Host activated SSH access on 10/07/26 via ticket
 - Agentic OS
-- Logos Blockchain for crypto
+- HTMX (Zero-build JS via CDN). See HTMX.md
 - Asynchronous messaging system paired with HTMX polling (C chat.md & chat2.md). Avoid Websockets (lagging on cPanel)
 - Create AI Code Review Agent https://learn.deeplearning.ai/courses/ai-code-review
 - Implement escrow logic for the PostgreSQL ledger with no double spending
 - Letta.com: An Open-Source Framework for Building Stateful LLM Applications.
+- - Logos Blockchain for crypto
   
       Letta (formerly MemGPT) treats large language models like an operating system.
       It handles context efficiently by giving agents virtual memory.
