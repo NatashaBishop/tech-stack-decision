@@ -20,3 +20,13 @@ It focuses heavily on the modern "Thread" structure—similar to Facebook Messen
 - Ecosystem Integration: It plugs natively into pinax-notifications, allowing you to easily trigger email alerts to users when they get a new message.
 **Who it’s for:**  
 Developers who want a clean, minimalist frontend interface and prefer writing their own custom marketplace moderation logic.
+### How You Use Them in Django  
+To use either of these packages on your cPanel-bound Django app, your workflow looks like this:  
+- Install it: Run pip install django-postman or pip install pinax-messages.
+- Register it: Add the package to your INSTALLED_APPS in settings.py.
+- Migrate: Run python manage.py migrate to let the package automatically create its tables in your MySQL database.
+- Include URLs: Point your main urls.py to the package's routes (e.g., path('messages/', include('postman.urls'))).
+- Style It: Override their default HTML templates with your marketplace's look and feel.
+**Difference:**
+- Django-Postman: feature-heavy system with safety filters
+- Pinax-Messages: clean, simplified threaded system
