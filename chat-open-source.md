@@ -12,3 +12,11 @@ https://pypi.org/project/django-postman/ is an ultra-robust, enterprise-grade pa
 **Who it’s for:**  
 Developers who want an advanced, feature-rich eBay-style messaging system with administrative control.
 ### 2. Pinax-Messages 
+https://github.com/pinax/pinax-messages is a part of the popular Pinax ecosystem for Django. It is a streamlined, lightweight app focused specifically on private threaded messaging.  
+**How it works:  **
+It focuses heavily on the modern "Thread" structure—similar to Facebook Messenger or modern marketplace layouts where the entire history between users is organized as a unified chat string.  
+**Best Marketplace Features:**  
+- Simplicity: It contains a very clean database schema (Message and Thread) which means faster database queries on restrictive cPanel servers.
+- Ecosystem Integration: It plugs natively into pinax-notifications, allowing you to easily trigger email alerts to users when they get a new message.
+**Who it’s for:**  
+Developers who want a clean, minimalist frontend interface and prefer writing their own custom marketplace moderation logic.
