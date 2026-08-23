@@ -37,11 +37,11 @@ AI models are exceptionally well-trained in Django because it is an established,
 - AI Assistants:
 - VSCode + Install the Continue (free, open source) extension inside VSCode (see file continue-extension-in-VSCode.md), and connect it to Anthropic's Claude. It allows the AI to read my files, run terminal commands and write code directly in my local project workspace with your permission.  
             -- Claude Code  
-            -- Meta Muse Code Contributor Tier (Data Sharing) - (CLI) terminal agent for macOS and Linux.    
+            -- Meta [Muse Code](https://www.google.com](https://developer.meta.com/ai/resources/blog/build-with-muse-code/) Contributor Tier (Data Sharing) - (CLI) terminal agent for macOS and Linux.    
 - or use Continue with VScode (Guide to Configure Continue in VS Code)
 - Considering Void, Cline (Roo Code) or Aidersystem for:
--- architecture,
--- data models,
+⋅⋅⋅⋅* architecture,
+⋅⋅⋅⋅* data models,
             those are multi-party tools to maintain the trade rules as the codebase grows.
             If the tool loses context, it will generate broken code that contradicts your previous stages.Here is a direct comparison of Void, Cline (Roo Code), and Aider
 - Frontend Design: Tailwind CSS compiled directly into a static, minified file, paired with HTMX for dynamic interactivity.  
