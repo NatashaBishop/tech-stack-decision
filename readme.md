@@ -32,10 +32,13 @@ AI models are exceptionally well-trained in Django because it is an established,
             It would be great to come up with a stack of tools that let me code locally on my machine   
             and run preview locally before I push to github and hosting.  
 
-### Concidered Tool Stack
+### Concidered Tool Stack / Tech stack
 - AI Assistant: https://blitzy.com/#pricing Reverse Engineer existing code base and do tech specification on existing code.
-- AI Assistants: VSCode + Install the Continue extension inside VSCode (see file continue-extension-in-VSCode.md), and connect it to Anthropic's Claude. It allows the AI to read my files, run terminal commands and write code directly in my local project workspace with your permission.
-- or use Continue with vs code (Guide to Configure Continue in VS Code)
+- AI Assistants:
+- VSCode + Install the Continue (free, open source) extension inside VSCode (see file continue-extension-in-VSCode.md), and connect it to Anthropic's Claude. It allows the AI to read my files, run terminal commands and write code directly in my local project workspace with your permission.
+            - Claude Code
+            - Meta Muse Code Contributor Tier (Data Sharing) - (CLI) terminal agent for macOS and Linux.  
+- or use Continue with VScode (Guide to Configure Continue in VS Code)
 - Considering Void, Cline (Roo Code) or Aidersystem for:
 -- architecture,
 -- data models,
