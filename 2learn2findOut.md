@@ -28,3 +28,4 @@
       It handles context efficiently by giving agents virtual memory.
 - Python-PostgreSQL Database Adapter (Google doc)
 - overcome PostgreSQL on cPanel limitations
+- harness (provides an agentic looping environment)
