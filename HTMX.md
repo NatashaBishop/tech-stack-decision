@@ -1,6 +1,6 @@
 ### *HTMX (Zero-build JS via CDN) - explained  
 
-**NEWS: htmx 4.0 has been released**
+**htmx 4.0 has been released:  https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released**
 
 HTMX is a lightweight JavaScript library that lets you build dynamic, interactive user interfaces using simple HTML attributes.  
 By using HTMX, you can completely avoid heavy frontend JavaScript frameworks (like React, Vue, or Angular) for standard web applications.  
