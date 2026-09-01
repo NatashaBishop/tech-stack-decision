@@ -30,3 +30,4 @@
 - overcome PostgreSQL on cPanel limitations
 - harness (provides an agentic looping environment)
 - API endpoints
+- Learn how to create a web worker with Google Apps Script 
