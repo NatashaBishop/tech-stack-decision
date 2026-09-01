@@ -22,10 +22,11 @@
 - Create AI Code Review Agent https://learn.deeplearning.ai/courses/ai-code-review
 - Implement escrow logic for the PostgreSQL ledger with no double spending
 - Letta.com: An Open-Source Framework for Building Stateful LLM Applications.
-- - Logos Blockchain for crypto
+- Logos Blockchain for crypto
   
       Letta (formerly MemGPT) treats large language models like an operating system.
       It handles context efficiently by giving agents virtual memory.
 - Python-PostgreSQL Database Adapter (Google doc)
 - overcome PostgreSQL on cPanel limitations
 - harness (provides an agentic looping environment)
+- API endpoints
