@@ -31,3 +31,4 @@
 - harness (provides an agentic looping environment)
 - API endpoints
 - [Learn how to create a web worker with Google Apps Script](https://www.boardflare.com/posts/2024/apps-script-web-workers/)
+- wallet security for Python+SQL
