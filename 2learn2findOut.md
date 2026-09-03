@@ -1,5 +1,5 @@
 ### I need 2 learn: 
-- Git Version Control
+- Git Version Control while using cPanel
 - Use a Git repository (GitHub) to deploy to cPanel.
 - Does stablepoint hosting allow push from GitHub? Y
 - how does Git work with different users on the same project
