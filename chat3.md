@@ -12,4 +12,13 @@ The architecture will split roles between our stable, transactional cPanel back 
 
 1. **The Handshake & Auth:** The user logs into your marketplace on cPanel. cPanel generates a short-lived JWT (JSON Web Token) or secure token containing the user's ID and marketplace balance.  
 2. **The Connection:** The user's browser opens a WebSocket connection to your external server, passing the token.  
-3. **The Validation:** The external server decodes the token (or makes a quick backend API call to cPanel) to verify who the user is before letting them chat.
+3. **The Validation:** The external server decodes the token (or makes a quick back end API call to cPanel) to verify who the user is before letting them chat.  
+To preserve chat history for resolving marketplace disputes, you should store all messages in your central database on cPanel, not on the external WebSocket server. Storing data on cPanel keeps your transactional data (user token balances) and evidence (chat logs) securely unified.Here is the most reliable, secure workflow for capturing and storing chat logs without slowing down the real-time experience.
+### The Chat Logging Workflow:
+    [ User A ] ──► (Real-time Message) ──► [ External WS Server ] 
+                                                  │
+                        ┌─────────────────────────┴────────────────────────┐
+                        ▼ (Immediate Broadcast)                            ▼ (Asynchronous Sync)
+                   [ User B ]                                       [ cPanel Database ]
+             (Instantly sees text)                             (Saved for dispute review)
+
