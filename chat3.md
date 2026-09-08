@@ -22,7 +22,7 @@ To preserve chat history for resolving marketplace disputes, you should store al
                    [ User B ]                                       [ cPanel Database ]
              (Instantly sees text)                             (Saved for dispute review)
 
-### High-Traffic Architecture:
+## High-Traffic Architecture:
     [ Active Chatters ]
             │ 
             ▼ (Millions of messages smoothly handled)
@@ -30,3 +30,9 @@ To preserve chat history for resolving marketplace disputes, you should store al
             │ 
             ▼ (Asynchronous Webhook Batches)
      [ cPanel Redis / Database Queue ] ──► [ Processed in Background ] ──► [ MySQL Logs ]
+### 1. The Real-Time Layer: Managed WebSockets
+**Instead of managing server memory, ports, and scaling yourself, rely on a dedicated system:**  
+= **Pusher Channels or Ably:** They handle millions of concurrent persistent connections globally, completely abstracting away server architecture.  
+- **Cost Factor:** While self-hosting a VPS costs a flat $5, a managed provider scales by message volume. However, for a high-traffic marketplace where security and uptime directly impact token transactions, the operational cost is a necessary investment.  
+
+
