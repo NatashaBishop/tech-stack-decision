@@ -22,3 +22,11 @@ To preserve chat history for resolving marketplace disputes, you should store al
                    [ User B ]                                       [ cPanel Database ]
              (Instantly sees text)                             (Saved for dispute review)
 
+### High-Traffic Architecture:
+    [ Active Chatters ]
+            │ 
+            ▼ (Millions of messages smoothly handled)
+     [ Managed Websockets (Pusher Channels / Ably) ] 
+            │ 
+            ▼ (Asynchronous Webhook Batches)
+     [ cPanel Redis / Database Queue ] ──► [ Processed in Background ] ──► [ MySQL Logs ]
