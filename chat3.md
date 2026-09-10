@@ -34,5 +34,9 @@ To preserve chat history for resolving marketplace disputes, you should store al
 **Instead of managing server memory, ports, and scaling yourself, rely on a dedicated system:**  
 - **Pusher Channels or Ably:** They handle millions of concurrent persistent connections globally, completely abstracting away server architecture.  
 - **Cost Factor:** While self-hosting a VPS costs a flat $5, a managed provider scales by message volume. However, for a high-traffic marketplace where security and uptime directly impact token transactions, the operational cost is a necessary investment.  
-
+### 2. The Storage Layer: cPanel Async Queuing
+To stop high chat volumes from crashing your cPanel database, you must **never save messages synchronously**. Instead, use a queue:  
+- **The Webhook:** Pusher fires a webhook to your cPanel API (/api/chat-webhook) containing a payload of messages.
+- **The Queue: **Your cPanel backend receives the payload and immediately pushes it into a Redis cache or a lightweight queue table, instantly responding 200 OK back to Pusher in milliseconds.
+- **The Background Worker:** A background cron job or supervisor process slowly processes that queue, inserting the logs into your MySQL database at a steady, manageable rate.
 
