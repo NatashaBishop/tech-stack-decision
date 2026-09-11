@@ -12,6 +12,7 @@
 - Claude skills
 - Claude loops
 - Claude automation
+- Claude design. Can I give an image the page?
 - Hosting images on Cloudflare. See storingIMGs.md
 - How Django URLs are working for SEO
 - What Django version my host uses. Latest @ the moment Long-Term Support version: Django 5.2 LTS
