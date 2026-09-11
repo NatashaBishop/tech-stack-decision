@@ -13,6 +13,7 @@
 - Claude loops
 - Claude automation
 - Claude design. Can I give an image the page?
+- [Connect Claude to GitHub]  (https://www.youtube.com/watch?v=YWMOWt2qkKs)
 - Hosting images on Cloudflare. See storingIMGs.md
 - How Django URLs are working for SEO
 - What Django version my host uses. Latest @ the moment Long-Term Support version: Django 5.2 LTS
