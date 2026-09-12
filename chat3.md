@@ -41,6 +41,9 @@ To stop high chat volumes from crashing your cPanel database, you must **never s
 - **The Background Worker:** A background cron job or supervisor process slowly processes that queue, inserting the logs into your MySQL database at a steady, manageable rate.
 
 ## Cost Breakdown: Pusher vs. Ably vs. Self-Hosted
+If you have 10,000 total registered users, your "Peak Concurrency" is usually around 5% to 10% (500 to 1,000 users online at once).  
+If you expect 10,000 users all active simultaneously, you are in a much higher pricing tier.
+
 | Scenario | Pusher Channels | Ably Realtime | Self-Hosted VPS (e.g., DigitalOcean) |
 | :--- | :--- | :--- | :--- |
 | **Scenario A: 500–1,000 Peak Users**<br>*(~10k total monthly users)* | **$49 – $99 / mo**<br>_Startup / Pro plans_ | **$29 / mo**<br>_Standard plan (covers up to 10k connections)_ | **$7 / mo**<br>_1GB RAM Droplet_ |
