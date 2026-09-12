@@ -40,7 +40,7 @@ To stop high chat volumes from crashing your cPanel database, you must **never s
 - **The Queue: **Your cPanel backend receives the payload and immediately pushes it into a Redis cache or a lightweight queue table, instantly responding 200 OK back to Pusher in milliseconds.
 - **The Background Worker:** A background cron job or supervisor process slowly processes that queue, inserting the logs into your MySQL database at a steady, manageable rate.
 
-
+## Cost Breakdown: Pusher vs. Ably vs. Self-Hosted
 | Scenario | Pusher Channels | Ably Realtime | Self-Hosted VPS (e.g., DigitalOcean) |
 | :--- | :--- | :--- | :--- |
 | **Scenario A: 500–1,000 Peak Users**<br>*(~10k total monthly users)* | **$49 – $99 / mo**<br>_Startup / Pro plans_ | **$29 / mo**<br>_Standard plan (covers up to 10k connections)_ | **$7 / mo**<br>_1GB RAM Droplet_ |
