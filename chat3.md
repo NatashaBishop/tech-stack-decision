@@ -49,5 +49,6 @@ If you expect 10,000 users all active simultaneously, you are in a much higher p
 | **Scenario A: 500–1,000 Peak Users**<br>*(~10k total monthly users)* | **$49 – $99 / mo**<br>_Startup / Pro plans_ | **$29 / mo**<br>_Standard plan (covers up to 10k connections)_ | **$7 / mo**<br>_1GB RAM Droplet_ |
 | **Scenario B: 10,000 Concurrent Users**<br>*(Massive live traffic spike)* | **$499 / mo**<br>_Premium plan (handles up to 10k CCU)_ | **$399 / mo**<br>_Pro plan (handles up to 50k connections)_ | **$28 – $56 / mo**<br>_8GB RAM VPS + load balancing_ |
 | **Pros** | Out-of-the-box drop-in SDKs, zero infrastructure maintenance. | Exceptional uptime guarantees, enterprise-grade connection resilience. | Completely uncapped message volumes for a flat monthly server cost. |
-| **Cons** | Expensive scale triggers if message fan-out gets highly active. | Requires custom wrapper code to manage message pooling pipelines. | You manage all security updates, node crashes, and connection drops. |
+| **Cons** | Expensive scale triggers if message fan-out gets highly active. | Requires custom wrapper code to manage message pooling pipelines. | You manage all security updates, node crashes, and connection drops. |  
+
 
