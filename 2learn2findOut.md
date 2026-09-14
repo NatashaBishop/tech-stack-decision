@@ -36,3 +36,4 @@
 - API endpoints
 - [Learn how to create a web worker with Google Apps Script](https://www.boardflare.com/posts/2024/apps-script-web-workers/)
 - wallet security for Python+SQL
+- bmad AI - BMAD Code - BMAD v6 - [build a complete AI content engine from scratch using the BMAD framework](https://youtu.be/4mbolenOx5Y?)
