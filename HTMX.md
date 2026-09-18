@@ -24,14 +24,16 @@ HTMX removes these shackles. It allows any HTML element to make an AJAX request 
 ### Pros and Cons: Is it right for your project?
 **The Good**
 
-    Massive Simplicity: You can build interactive features (like infinite scroll, inline editing, or live search) using whatever backend language you already love (Python, Go, Rust, Node, Ruby) without touching JS.
+    - Massive Simplicity: You can build interactive features (like infinite scroll, inline editing, or live search) using whatever backend language you already love (Python, Go, Rust, Node, Ruby) without touching JS.
 
-    No Build Fatigue: Goodbye node_modules, package updates, and complex bundlers.
+    - No Build Fatigue: Goodbye node_modules, package updates, and complex bundlers.
 
-    State Alignment: Your "state" lives entirely on the server. There is no desync between what the frontend thinks is happening and what the backend database actually holds.
+    - State Alignment: Your "state" lives entirely on the server. There is no desync between what the frontend thinks is happening and what the backend database actually holds.
 
 **The Trade-offs**
 
-    Not for Offline-First Apps: Because every interaction relies on an HTTP request/response cycle, HTMX doesn't work well for apps that need to function completely offline or require sub-millisecond, client-side animation rendering.
+    - Not for Offline-First Apps: Because every interaction relies on an HTTP request/response cycle, HTMX doesn't work well for apps that need to function completely offline or require sub-millisecond, client-side animation rendering.
+
+    - Heavy Network Reliance: If your server is slow, your UI interactions will feel sluggish because you're waiting on an HTML response for UI updates.
 
 
