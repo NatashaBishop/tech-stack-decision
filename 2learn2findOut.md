@@ -9,7 +9,7 @@
 - Find out if Claude can push to git
 - Writing tests: what and how it is tested
 - Claude agents within VScode
-- Claude skills
+- Claude skills 
 - Claude loops
 - Claude automation
 - Claude design. Can I give an image the page?
@@ -32,7 +32,7 @@
       It handles context efficiently by giving agents virtual memory.
 - Python-PostgreSQL Database Adapter (Google doc)
 - overcome PostgreSQL on cPanel limitations
-- harness for AI agent (provides an agentic looping environment)
+- harness for AI model (provides an agentic looping environment)
 - API endpoints
 - [Learn how to create a web worker with Google Apps Script](https://www.boardflare.com/posts/2024/apps-script-web-workers/)
 - wallet security for Python+SQL
