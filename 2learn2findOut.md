@@ -13,6 +13,7 @@
 - Claude loops
 - Claude automation
 - Claude design. Can I give an image the page?
+- [Claude Code Projects](https://venturebeat.com/orchestration/anthropic-launches-claude-code-projects-an-always-on-conversation-that-remembers-and-delegates-your-long-running-dev-work)  
 - [Claude Code Plugins replaces DevOp team](https://www.youtube.com/shorts/k0gwr-vC2Z4)
 - [Connect Claude to GitHub](https://www.youtube.com/watch?v=YWMOWt2qkKs)
 - Hosting images on Cloudflare. See storingIMGs.md
