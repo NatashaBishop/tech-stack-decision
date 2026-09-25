@@ -16,6 +16,7 @@
 - [Claude Code Projects](https://venturebeat.com/orchestration/anthropic-launches-claude-code-projects-an-always-on-conversation-that-remembers-and-delegates-your-long-running-dev-work)  
 - [Claude Code Plugins replaces DevOp team](https://www.youtube.com/shorts/k0gwr-vC2Z4)
 - [Connect Claude to GitHub](https://www.youtube.com/watch?v=YWMOWt2qkKs)
+- architect/worker model architecture
 - Hosting images on Cloudflare. See storingIMGs.md
 - How Django URLs are working for SEO
 - What Django version my host uses. Latest @ the moment Long-Term Support version: Django 5.2 LTS
