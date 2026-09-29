@@ -6,7 +6,7 @@
 - GitHub actions. Try automated push on small test. https://share.google/aimode/qJKgVElH6nKMQiW2N
 - Django Templates + HTMX (React / Vue SPA is less suitable for Django on cPanel)
 - Claude
--- Run Claude Code from VScode
+  - Run Claude Code from VScode
 - Claude Code push to git
 - Writing tests: what and how it is tested
 - Claude agents within VScode
