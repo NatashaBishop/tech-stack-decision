@@ -5,18 +5,17 @@
 - how does Git work for teams: with different users on the same project
 - GitHub actions. Try automated push on small test. https://share.google/aimode/qJKgVElH6nKMQiW2N
 - Django Templates + HTMX (React / Vue SPA is less suitable for Django on cPanel)
+- Writing tests: what and how it is tested?
 - Claude
-  - Run Claude Code from VScode
-- Claude Code push to git
-- Writing tests: what and how it is tested
-- Claude agents within VScode
-- Claude skills. [Learn to create agent skills](https://anthropic.skilljar.com/introduction-to-agent-skills) 
-- Claude loops
-- Claude automation
-- Claude design. Can I give a page image (screenshot of even a page example)?
-- [Claude Code Projects](https://venturebeat.com/orchestration/anthropic-launches-claude-code-projects-an-always-on-conversation-that-remembers-and-delegates-your-long-running-dev-work)  
-- [Claude Code Plugins replaces DevOp team](https://www.youtube.com/shorts/k0gwr-vC2Z4)
-- [Connect Claude to GitHub](https://www.youtube.com/watch?v=YWMOWt2qkKs)
+  - Run Claude agents within VScode
+  - Claude Code push to git
+  - Claude skills. [Learn to create agent skills](https://anthropic.skilljar.com/introduction-to-agent-skills) 
+  - Claude loops
+  - Claude automation
+  - Claude design. Can I give a page image (screenshot of even a page example)?
+  - [Claude Code Projects](https://venturebeat.com/orchestration/anthropic-launches-claude-code-projects-an-always-on-conversation-that-remembers-and-delegates-your-long-running-dev-work)  
+  - [Claude Code Plugins replaces DevOp team](https://www.youtube.com/shorts/k0gwr-vC2Z4)
+  - [Connect Claude to GitHub](https://www.youtube.com/watch?v=YWMOWt2qkKs)
 - architect/worker model architecture
 - Hosting images on Cloudflare. See storingIMGs.md
 - How Django URLs are working for SEO
