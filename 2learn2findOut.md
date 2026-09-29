@@ -5,7 +5,8 @@
 - how does Git work for teams: with different users on the same project
 - GitHub actions. Try automated push on small test. https://share.google/aimode/qJKgVElH6nKMQiW2N
 - Django Templates + HTMX (React / Vue SPA is less suitable for Django on cPanel)
-- Run Claude Code from VScode
+- Claude
+-- Run Claude Code from VScode
 - Claude Code push to git
 - Writing tests: what and how it is tested
 - Claude agents within VScode
