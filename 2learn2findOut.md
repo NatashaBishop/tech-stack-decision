@@ -9,7 +9,7 @@
 - Claude Code push to git
 - Writing tests: what and how it is tested
 - Claude agents within VScode
-- Claude skills 
+- Claude skills. [Learn to create agent skills](https://anthropic.skilljar.com/introduction-to-agent-skills) 
 - Claude loops
 - Claude automation
 - Claude design. Can I give a page image (screenshot of even a page example)?
