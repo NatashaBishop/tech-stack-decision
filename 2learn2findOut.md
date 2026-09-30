@@ -4,7 +4,10 @@
 - Does stablepoint hosting allow push from GitHub? Y
 - how does Git work for teams: with different users on the same project
 - GitHub actions. Try automated push on small test. https://share.google/aimode/qJKgVElH6nKMQiW2N
-- Django Templates + HTMX (React / Vue SPA is less suitable for Django on cPanel)
+- Django
+  - What Django version my host uses. Latest @ the moment Long-Term Support version: Django 5.2 LTS
+  - Django Templates + HTMX (React / Vue SPA is less suitable for Django on cPanel)
+  - How Django URLs are working for SEO
 - Writing tests: what and how it is tested?
 - Claude
   - Run Claude agents within VScode
@@ -18,8 +21,6 @@
   - [Connect Claude to GitHub](https://www.youtube.com/watch?v=YWMOWt2qkKs)
 - architect/worker model architecture
 - Hosting images on Cloudflare. See storingIMGs.md
-- How Django URLs are working for SEO
-- What Django version my host uses. Latest @ the moment Long-Term Support version: Django 5.2 LTS
 - How to implemented caching
 - Working with SSH Servers, Clients, and Keys - for my cPanel hosting. Host activated SSH access on 10/07/26 via ticket
 - Agentic OS
