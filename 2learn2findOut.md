@@ -1,7 +1,6 @@
 ### I need 2 learn: 
 - Git Version Control while using cPanel
 - Use a Git repository (GitHub) to deploy to cPanel.
-- Does stablepoint hosting allow push from GitHub? Y
 - how does Git work for teams: with different users on the same project
 - GitHub actions. Try automated push on small test. https://share.google/aimode/qJKgVElH6nKMQiW2N
 - Django
@@ -20,9 +19,11 @@
   - [Claude Code Plugins replaces DevOp team](https://www.youtube.com/shorts/k0gwr-vC2Z4)
   - [Connect Claude to GitHub](https://www.youtube.com/watch?v=YWMOWt2qkKs)
 - architect/worker model architecture
-- Hosting images on Cloudflare. See storingIMGs.md
-- How to implemented caching
-- Working with SSH Servers, Clients, and Keys - for my cPanel hosting. Host activated SSH access on 10/07/26 via ticket
+- implement caching
+- hosting
+  - Does stablepoint hosting allow push from GitHub? Y
+  - Working with SSH Servers, Clients, and Keys - for my cPanel hosting. Host activated SSH access on 10/07/26 via ticket
+  - Hosting images on Cloudflare. See storingIMGs.md
 - Agentic OS
 - HTMX (Zero-build JS via CDN). See HTMX.md
 - Asynchronous messaging system paired with HTMX polling (C chat.md & chat2.md). Avoid Websockets (lagging on cPanel)
