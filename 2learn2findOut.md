@@ -28,6 +28,8 @@
   - Working with SSH Servers, Clients, and Keys - for my cPanel hosting. Host activated SSH access on 10/07/26 via ticket
   - Hosting images on Cloudflare. See storingIMGs.md
 - Agentic OS
+- Statistics
+  - What SaaS metrics do I need
 - HTMX (Zero-build JS via CDN). See HTMX.md
 - Asynchronous messaging system paired with HTMX polling (C chat.md & chat2.md). Avoid Websockets (lagging on cPanel)
 - Create AI Code Review Agent https://learn.deeplearning.ai/courses/ai-code-review
