@@ -40,8 +40,10 @@
   
       Letta (formerly MemGPT) treats large language models like an operating system.
       It handles context efficiently by giving agents virtual memory.
-- Python-PostgreSQL Database Adapter (Google doc)
-- overcome PostgreSQL on cPanel limitations
+- PostgreSQL
+  - Python-PostgreSQL Database Adapter (Google doc)
+  - overcome PostgreSQL on cPanel limitations
+  - PostgreSQL on my cPanel
 - harness for AI model (provides an agentic looping environment)
 - API endpoints
 - [Learn how to create a web worker with Google Apps Script](https://www.boardflare.com/posts/2024/apps-script-web-workers/)
