@@ -7,6 +7,7 @@
 - Django
   - What Django version my host uses. Latest @ the moment Long-Term Support version: Django 5.2 LTS
   - Django Templates + HTMX (React / Vue SPA is less suitable for Django on cPanel)
+  - Wallet security for Python+SQL
   - How Django URLs are working for SEO
 - Writing tests: what and how it is tested?
 - Claude
@@ -37,15 +38,14 @@
 - Implement escrow logic for the PostgreSQL ledger with no double spending
 - Letta.com: An Open-Source Framework for Building Stateful LLM Applications.
 - Logos Blockchain for crypto
-  
-      Letta (formerly MemGPT) treats large language models like an operating system.
-      It handles context efficiently by giving agents virtual memory.
+- Agents Memory
+  - Open-Source Agent Memory Platform [Cognee](https://www.cognee.ai/pricing)
+  - Letta (formerly MemGPT) treats large language models like an operating system. It handles context efficiently by giving agents virtual memory.
+  - harness for AI model (provides an agentic looping environment)
 - PostgreSQL
   - Python-PostgreSQL Database Adapter (Google doc)
   - overcome PostgreSQL on cPanel limitations
   - PostgreSQL on my cPanel
-- harness for AI model (provides an agentic looping environment)
 - API endpoints
 - [Learn how to create a web worker with Google Apps Script](https://www.boardflare.com/posts/2024/apps-script-web-workers/)
-- wallet security for Python+SQL
 - bmad AI - BMAD Code - BMAD v6 - [build a complete AI content engine from scratch using the BMAD framework](https://youtu.be/4mbolenOx5Y?)
