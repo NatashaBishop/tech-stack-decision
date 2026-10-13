@@ -4,6 +4,7 @@
   - Use a Git repository (GitHub) to deploy to cPanel.
   - how does Git work for teams: with different users on the same project
   - GitHub actions. Try automated push on small test. https://share.google/aimode/qJKgVElH6nKMQiW2N
+  - Wat portion of app I can host on GitHub?
 - Django
   - What Django version my host uses. Latest @ the moment Long-Term Support version: Django 5.2 LTS
   - Django Templates + HTMX (React / Vue SPA is less suitable for Django on cPanel)
