@@ -11,7 +11,7 @@
   - Wallet security for Python+SQL
   - How Django URLs are working for SEO
 - Writing tests: what and how it is tested?
-- Claude
+- [Claude](https://www.youtube.com/playlist?list=PLmWCw1CzcFilebjK89WLb5cAvM8K0cLB3)
   - Run Claude agents within VScode
   - Claude Code push to git
   - Claude skills. [Learn to create agent skills](https://anthropic.skilljar.com/introduction-to-agent-skills) 
