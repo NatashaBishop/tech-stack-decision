@@ -24,6 +24,8 @@
   - [Connect Claude to GitHub](https://www.youtube.com/watch?v=YWMOWt2qkKs)
   - Claude Code Mods (need version 2.1.287 or later)
   - Claude Code Sessions - how to connect them (How Cross-Session Messaging Works)
+  - Code Review
+  - Subagents — how to delegate tasks and run parallel workflows
 - architect/worker model architecture
 - implement caching
 - hosting
