@@ -16,6 +16,7 @@
   - Claude Code push to git
   - Claude skills. [Learn to create agent skills](https://anthropic.skilljar.com/introduction-to-agent-skills) 
   - Claude loops
+  - Claude hooks
   - Claude automation
   - Claude design. Can I give a page image (screenshot of even a page example)?
   - [Claude as motion designer](https://charliehills.substack.com/p/claude-code-motion-graphics)
