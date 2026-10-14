@@ -44,6 +44,10 @@
 - Letta.com: An Open-Source Framework for Building Stateful LLM Applications.
 - Logos Blockchain for crypto
 - Agents Memory
+  - context and memory in LLM performance
+  - context windows
+  - token limits
+  - memory management techniques
   - Open-Source Agent Memory Platform [Cognee](https://www.cognee.ai/pricing)
   - Letta (formerly MemGPT) treats large language models like an operating system. It handles context efficiently by giving agents virtual memory.
   - harness for AI model (provides an agentic looping environment)
