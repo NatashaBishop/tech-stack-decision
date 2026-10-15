@@ -33,7 +33,7 @@
   - Does stablepoint hosting allow push from GitHub? Y
   - Working with SSH Servers, Clients, and Keys - for my cPanel hosting. Host activated SSH access on 10/07/26 via ticket
   - Hosting images on Cloudflare. See storingIMGs.md
-  - Hosting for PosrgreSQL
+  - Hosting PosrgreSQL on cPanel
 - Agentic OS
 - Statistics
   - What SaaS metrics do I need
