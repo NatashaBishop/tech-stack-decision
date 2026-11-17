@@ -5,6 +5,8 @@
   - how does Git work for teams: with different users on the same project
   - GitHub actions. Try automated push on small test. https://share.google/aimode/qJKgVElH6nKMQiW2N
   - Wat portion of app I can host on GitHub?
+- KYC
+  - Video KYC or Video Identification - remote identity verification method where a user connects with a trained specialist over an encrypted audio-visual call to verify their identity in real time.
 - Django
   - What Django version my host uses. Latest @ the moment Long-Term Support version: Django 5.2 LTS
   - Django Templates + HTMX (React / Vue SPA is less suitable for Django on cPanel)
