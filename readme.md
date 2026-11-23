@@ -33,6 +33,7 @@ AI models are exceptionally well-trained in Django because it is an established,
             and run preview locally before I push to github and hosting.  
 
 ### Concidered Tool Stack / Tech stack
+- [Superpowers](https://github.com/obra/superpowers) - spec-driven framework for AI agent, works with Claude
 - AI Assistant: https://blitzy.com/#pricing Reverse Engineer existing code base and do tech specification on existing code.
 - AI Assistants:
 - VSCode + Install the Continue (free, open source) extension inside VSCode (see file continue-extension-in-VSCode.md), and connect it to Anthropic's Claude. It allows the AI to read my files, run terminal commands and write code directly in my local project workspace with your permission.  
@@ -45,7 +46,6 @@ AI models are exceptionally well-trained in Django because it is an established,
             those are multi-party tools to maintain the trade rules as the codebase grows.
             If the tool loses context, it will generate broken code that contradicts your previous stages.Here is a direct comparison of Void, Cline (Roo Code), and Aider
 - Kiro is suitable for my specific stack.
-- [Superpowers](https://github.com/obra/superpowers)
 
             It is a VS Code fork that introduces "spec-driven development" - a revolutionary approach that plans before coding. Unlike traditional AI tools that jump straight into implementation, Kiro creates detailed requirements, design documents, and implementation plans first, giving you complete visibility into what the AI will build before it touches your code.
 - Frontend Design: Tailwind CSS compiled directly into a static, minified file, paired with HTMX for dynamic interactivity.  
