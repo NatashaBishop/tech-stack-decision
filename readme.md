@@ -45,6 +45,7 @@ AI models are exceptionally well-trained in Django because it is an established,
             those are multi-party tools to maintain the trade rules as the codebase grows.
             If the tool loses context, it will generate broken code that contradicts your previous stages.Here is a direct comparison of Void, Cline (Roo Code), and Aider
 - Kiro is suitable for my specific stack.
+- [Superpowers](https://github.com/obra/superpowers)
 
             It is a VS Code fork that introduces "spec-driven development" - a revolutionary approach that plans before coding. Unlike traditional AI tools that jump straight into implementation, Kiro creates detailed requirements, design documents, and implementation plans first, giving you complete visibility into what the AI will build before it touches your code.
 - Frontend Design: Tailwind CSS compiled directly into a static, minified file, paired with HTMX for dynamic interactivity.  
