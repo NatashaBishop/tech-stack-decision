@@ -30,7 +30,7 @@ AI models are exceptionally well-trained in Django because it is an established,
             I also would like to use a git for backing up the project.   
             If it is possible to make my Github account work synchronously with my cPanel hosting.   
             It would be great to come up with a stack of tools that let me code locally on my machine   
-            and run preview locally before I push to github and hosting.  
+            and run preview locally before I push to Github and hosting.  
 
 ### Concidered Tool Stack / Tech stack
 - [Superpowers](https://github.com/obra/superpowers) - spec-driven framework for AI agent, works with Claude
