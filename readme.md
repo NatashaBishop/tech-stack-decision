@@ -25,18 +25,18 @@ AI models are exceptionally well-trained in Django because it is an established,
 4. What do I need to understand next?
    
             I would like to understand what tools to use and how to do an initial setup. I like VScode.  
-            I have a hosting with cPanel where Django is already setup and running the old code (legacy Django + mySql).   
-            I see a facility on my cPanel to create postgreSQL. I will do that.  
+            I have a hosting with cPanel where Django is already setup and running the old code (legacy Django + MySQL).   
+            I see a facility on my cPanel to create PostgreSQL. I will do that.  
             I also would like to use a git for backing up the project.   
-            If it is possible to make my Github account work synchronously with my cPanel hosting.   
+            If it is possible to make my GitHub account work synchronously with my cPanel hosting.   
             It would be great to come up with a stack of tools that let me code locally on my machine   
-            and run preview locally before I push to Github and hosting.  
+            and run preview locally before I push to GitHub and hosting.  
 
 ### Concidered Tool Stack / Tech stack
 - [Superpowers](https://github.com/obra/superpowers) - spec-driven framework for AI agent, works with Claude
 - AI Assistant: https://blitzy.com/#pricing Reverse Engineer existing code base and do tech specification on existing code.
 - AI Assistants:
-- VSCode + Install the Continue (free, open source) extension inside VSCode (see file continue-extension-in-VSCode.md), and connect it to Anthropic's Claude. It allows the AI to read my files, run terminal commands and write code directly in my local project workspace with your permission.  
+- VSCode + Install the Continue (free, open source) extension inside Vs Code (see file continue-extension-in-VSCode.md), and connect it to Anthropic's Claude. It allows the AI to read my files, run terminal commands and write code directly in my local project workspace with your permission.  
             -- Claude Code  
             -- Meta [Muse Code](https://www.google.com](https://developer.meta.com/ai/resources/blog/build-with-muse-code/) Contributor Tier (Data Sharing) - (CLI) terminal agent for macOS and Linux.    
 - or use Continue with VScode (Guide to Configure Continue in VS Code)
@@ -65,7 +65,7 @@ Because I do not have a CTO, I need an autonomous AI agent that can look at the 
             ┌────────────────────────────────────────────────────────┐  
             │                      THE FINAL STACK                   │  
             ├─────────────┬──────────────────────────────────────────┤  
-            │ Backend     │ Django (Python)                          │  
+            │ Back-end     │ Django (Python)                          │  
             ├─────────────┼──────────────────────────────────────────┤  
             │ Database    │ PostgreSQL (Managed via cPanel)          │  
             ├─────────────┼──────────────────────────────────────────┤  
@@ -74,9 +74,9 @@ Because I do not have a CTO, I need an autonomous AI agent that can look at the 
             │ Styling     │ Tailwind CSS (Compiled Locally via CLI)  │  
             └─────────────┴──────────────────────────────────────────┘  
             * see HTMX.md file
-### Why this stack sutable 4 cPanel:  
+### Why this stack suitable 4 cPanel:  
 - No Node.js on the Server: cPanel handles Python (via WSGI) and PostgreSQL brilliantly. It struggles heavily with Node.js processes (like running a React server or an active Tailwind compiler). This stack keeps Node.js 100% on your local computer.
 - No API Overhead: You do not need to build, secure, or maintain a Django REST Framework API because HTMX talks directly to standard Django views.
 - Native Security: Django’s built-in CSRF tokens and user session cookies protect your digital wallet ledger out of the box.
-- A PostgreSQL database handles the initial phase of tokenization. It uses strict ACID transactions to guarantee that token balances are never duplicated, mixed up, or lost during trades. 
+- A PostgreSQL database handles the initial phase of tokenisation. It uses strict ACID transactions to guarantee that token balances are never duplicated, mixed up, or lost during trades. 
 
